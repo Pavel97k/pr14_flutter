@@ -2,7 +2,7 @@ name: Analyze_my_project
 on: [push]
 
 jobs:
-  buuld:
+  build:
     runs-on: ubuntu-latest
 
     steps:
