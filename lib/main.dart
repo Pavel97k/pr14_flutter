@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:pr2/deep_relax.dart';
 import 'medinow.dart';
 import 'my_weekly.dart';
 
@@ -20,9 +19,9 @@ class MyApp extends StatelessWidget {
       initialRoute: '/medinow', // Установите начальный маршрут
       routes: {
         // Определите маршруты для каждой страницы
-        '/medinow': (context) => const Medinow(),
-        '/my_weekly': (context) => const MyWeek(),
-        '/pr2_2': (context) => const DeepRelax(),
+        '/medinow': () => const Medinow(),
+        '/my_weekly': () => const MyWeek(),
+        '/pr2_2': () => const DeepRelax(),
       },
     );
   }
